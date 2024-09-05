@@ -1,0 +1,76 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.lead {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+
+input {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+.paper {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.2s ease;
+}
+
+.paper:hover {
+    transform: scale(1.05);
+}
+
+.paper h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+}
+
+.paper p {
+    color: #7f8c8d;
+}
+
+.paper button {
+    background-color: #27ae60;
+}
+
+.paper button:hover {
+    background-color: #2ecc71;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+#results, #saved-papers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
